@@ -1,0 +1,149 @@
+/* css code for index part  */
+*{
+    padding:0px;
+    margin:0px;
+}
+body{
+    background-color:rgba(144, 238, 144, 0.274);
+}
+.container {
+  display: flex;
+  flex-direction: column; 
+  gap: 50px;              
+}
+#nav-bar1{
+    display:flex;
+    top:0;
+    right:0;
+    left:0;
+    margin: 10px;
+    padding: 15px;  
+}
+#nav-bar1 nav{  
+    display:flex;
+    height:50px;
+    justify-content: space-around;  
+    align-items:center;  
+    font-size:25px;
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight:lighter;
+    border-bottom:solid 3px rgba(7, 8, 8, 0.5);
+    border-radius:15px;
+}
+#nav-bar1 a{
+    position:relative;
+    text-decoration:none;
+    color:black;
+    font-size: 24px;
+   font-family: Arial, Helvetica, sans-serif;
+   padding: 5px 0;
+}
+
+#nav-bar1 a::after{
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 0;               
+    width: 0;
+    height: 2px;             
+    background: black;       
+    transition: width 0.3s ease-in-out;
+}
+#nav-bar1 a:hover::after {
+  width: 100%;
+}
+
+#cont-1{
+    width:1000px;
+    margin:80px auto;
+    padding:60px;
+    line-height:1.6;
+    color:#a0b1921f;
+    align-items:center;
+}
+#cont-1 p{
+    display:flex;
+    justify-content:center;
+    text-align:center;
+    font-size:40px;
+    font-family:'Times New Roman', Times, serif;
+    color:rgba(78, 105, 120, 0.628);
+}
+
+#cont-2{
+    justify-content:center;
+    text-align:center;
+}
+#cont-2 button{
+    width:280px;
+    height:60px;
+    border-radius:10px;
+    border:solid 2px black;
+    font-size:24px;
+    font-family:Arial, Helvetica, sans-serif;
+}
+#cont-2 button:hover{
+background-color:black;
+color:gray;
+}
+
+#nav-bar0{
+height:30px;
+position:fixed;
+bottom:0;
+right:0;
+left:0;
+display:flex;
+justify-content:center;
+gap:30px;
+padding:10px;
+}
+#nav-bar0 a{
+    text-decoration:none;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size:18px;
+    color:black;
+}
+#nav-bar0 a:hover{
+    text-decoration:underline;
+    color:black;
+}
+
+
+
+
+
+/* here comes about section css style part */
+#a-d1{
+    width:1350px;
+    height:75px;
+    margin:50px 0px 45px 0px;
+    align-content:center;
+    font-size:24px;
+    font-family:Arial, Helvetica, sans-serif;
+    text-align:center;
+}
+
+#a-d2{
+height:250px;
+width:1350;
+}
+#a-p2{
+    padding:50px;
+    margin:50px 50px 50px 50px;
+    font-family:'Times New Roman', Times, serif;
+    font-size:26px;
+    text-align:center;
+}
+#a-d0{
+     position:fixed;
+    bottom:0;
+    right:0;
+height:50px;
+padding:10px;
+margin:100px;
+}
+#a-f1{
+    font-size:20px;
+    font-family:cursive;
+}
